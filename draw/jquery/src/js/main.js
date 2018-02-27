@@ -1,6 +1,6 @@
 var draw = (function(){
   //Get the height and the width of the main element
-  var mWidth = document.querySelector('main').offsetWidth,
+  var mWidth = $('main').width(),
     mHeight = document.querySelector('main').offsetHeight,
 
     //Create the canvas
